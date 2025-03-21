@@ -11,7 +11,7 @@ const images = [
   '/Hero5.jpg',
   '/Hero4.jpg',
   '/Hero5.avif',
-  '/why.avif',
+  '/Why.avif',
   '/Tea.jpg'
 ];
 
