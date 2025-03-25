@@ -14,7 +14,7 @@ const Banner = () => {
       <div className="flex flex-col lg:flex-row md:flex-row items-center justify-between h-full space-y-2 lg:space-y-0">
         <div>
           <div className="flex items-center gap-4 text-center bg-white border-[#0F1B4F] border-[1px] text-[#0F1B4F] rounded-md shadow-md text-xs font-bold px-4 py-1">
-            For Franchise call : <IoCallOutline /> +91 9700204536
+            For Franchise call : <IoCallOutline /> +91 9949941598
           </div>
         </div>
         <div>

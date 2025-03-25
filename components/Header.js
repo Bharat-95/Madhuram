@@ -3,6 +3,7 @@ import Link from 'next/link';
 import React, { useState } from 'react';
 import { HiMenu, HiX } from "react-icons/hi";
 import Banner from './Banner';
+import Image from 'next/image';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,7 +22,10 @@ const Header = () => {
         className={`fixed lg:top-8 top-18 w-full bg-gradient-to-r from-green-700 via-green-600 to-green-800 text-white px-6 py-4 z-40`}
       >
         <div className="flex justify-between items-center">
-          <div className="text-xl font-bold">Logo</div>
+          <div className="text-xl font-bold flex flex-col items-center">
+            <Image src='/Logo.png' alt='No Image Found' height={500} width={500} className='w-14'/>
+            <div>Hotel Madhuram</div>
+          </div>
 
           {/* Mobile Menu Icon */}
           <div className="lg:hidden">

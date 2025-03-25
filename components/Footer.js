@@ -19,16 +19,15 @@ const Footer = () => {
           <h2 className="text-xl font-semibold">Quick Links</h2>
           <Link href="/" className="text-gray-300 hover:text-white">Home</Link>
           <Link href="/about" className="text-gray-300 hover:text-white">About Us</Link>
-          <Link href="/gallery" className="text-gray-300 hover:text-white">Gallery</Link>
           <Link href="/contact" className="text-gray-300 hover:text-white">Contact</Link>
-          <Link href="/franchise" className="text-gray-300 hover:text-white">Franchise</Link>
+          <Link href="/contact" className="text-gray-300 hover:text-white">Franchise</Link>
         </div>
 
         {/* Contact Information */}
         <div className="flex flex-col items-center lg:items-start space-y-2">
           <h2 className="text-xl font-semibold">Contact Us</h2>
           <p className="flex items-center gap-2 text-gray-300">
-            <FaPhoneAlt /> +91 97002 04536
+            <FaPhoneAlt /> +91 9949941598
           </p>
           <p className="flex items-center gap-2 text-gray-300">
             <FaEnvelope /> info@madhuramhotel.com
